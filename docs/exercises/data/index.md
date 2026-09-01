@@ -1,6 +1,6 @@
 ---
 exercise: data
-ai_use: "AI used for helping with de organization and code"
+ai_use: "AI used for helping with organization and code"
 ---
 
 # 1. Data
