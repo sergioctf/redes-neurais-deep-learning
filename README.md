@@ -2,6 +2,8 @@
 
 Repositório público das entregas da eletiva de Redes Neurais e Deep Learning do Insper.
 
+https://sergioctf.github.io/redes-neurais-deep-learning/exercises/data/
+
 ## Preparação
 
 ```bash
