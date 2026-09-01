@@ -1,18 +1,9 @@
-markdown-grid-tables
-markdown-exec[ansi]
-mkdocs-badges
-mkdocs-material
-mkdocs-material-extensions
-mkdocs-minify-plugin
-mkdocs-glightbox
-mkdocs-git-authors-plugin
-mkdocs-git-committers-plugin-2
-mkdocs-git-revision-date-localized-plugin
-mkdocs-render-swagger-plugin
-mkdocs-jupyter
-termynal
-matplotlib
-numpy
-pandas
-yfinance
+mkdocs-material>=9.6,<10
+mkdocs-minify-plugin>=0.8,<1
+mkdocs-glightbox>=0.4,<1
+numpy>=2.0,<3
+pandas>=2.2,<3
+matplotlib>=3.9,<4
+seaborn>=0.13,<1
+scikit-learn>=1.5,<2
 

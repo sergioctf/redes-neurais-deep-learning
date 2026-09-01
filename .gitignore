@@ -1,5 +1,10 @@
 site/
 env/
+.venv/
 .cache/
 .vscode/
 target/
+__pycache__/
+*.py[cod]
+docs/exercises/data/data/*.csv
+!docs/exercises/data/data/README.md
