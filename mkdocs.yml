@@ -64,3 +64,4 @@ nav:
   - Início: index.md
   - Exercícios:
       - Atividade 1 — Data: exercises/data/index.md
+      - Atividade 2 — Perceptron: exercises/perceptron/index.md

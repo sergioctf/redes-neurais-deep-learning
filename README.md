@@ -35,6 +35,14 @@ Baixe o arquivo `train.csv` da competição Spaceship Titanic conforme as instru
 python docs/exercises/data/code/data_exercise.py
 ```
 
+## Executar o exercício Perceptron
+
+O exercício usa somente NumPy e Matplotlib para gerar os dados e as figuras. A partir da raiz do repositório, execute:
+
+```bash
+python docs/exercises/perceptron/code/perceptron_exercise.py
+```
+
 ## Visualizar o site
 
 ```bash
