@@ -75,14 +75,14 @@ A Figura 3 mostra a acurácia medida após cada época. Ela chega a 100% na épo
 
 As direções ficaram **quase iguais**, mas não idênticas; o produto interno entre elas é $0{,}99999994$. As retas também têm deslocamentos diferentes, como mostra $b/\lVert\mathbf{w}\rVert$. Com início não nulo de magnitude próxima a $0{,}01$, mudar $\eta$ altera o tamanho de cada correção **em relação ao vetor inicial**, o caminho de erros e a fronteira encontrada. Isso explica por que as duas execuções acertam todos os pontos, mas param após números diferentes de épocas.
 
-**Se o início fosse zero.** Considere o parâmetro ampliado $\boldsymbol\theta=(\mathbf{w},b)$, a entrada ampliada $\tilde{\mathbf{x}}=(\mathbf{x},1)$ e $\boldsymbol\theta_0=\mathbf{0}$. Após qualquer sequência de $t$ exemplos visitados,
+**Se o início fosse zero.** Considere o parâmetro ampliado $\theta=(\mathbf{w},b)$, a entrada ampliada $\tilde{\mathbf{x}}=(\mathbf{x},1)$ e $\theta_0=\mathbf{0}$. Após qualquer sequência de $t$ exemplos visitados,
 
 $$
-\boldsymbol\theta_t(\eta)
+\theta_t(\eta)
 =\eta\sum_{k<t} e_k\tilde{\mathbf{x}}_k.
 $$
 
-Para duas taxas positivas $\eta_1$ e $\eta_2$, a indução começa em $\boldsymbol\theta_0(\eta_2)=(\eta_2/\eta_1)\boldsymbol\theta_0(\eta_1)=0$. Se a relação vale antes do próximo exemplo, os escores têm o mesmo sinal porque $\eta_2/\eta_1>0$; portanto, as duas execuções fazem a mesma predição, obtêm o mesmo erro $e_k$ e preservam a relação após a atualização. Logo, $\boldsymbol\theta_t(\eta_2)=(\eta_2/\eta_1)\boldsymbol\theta_t(\eta_1)$ em cada passo. Multiplicar pesos **e bias** por uma constante positiva preserva a fronteira e os erros: as épocas seriam idênticas. O início não nulo evita essa invariância.
+Para duas taxas positivas $\eta_1$ e $\eta_2$, a indução começa em $\theta_0(\eta_2)=(\eta_2/\eta_1)\theta_0(\eta_1)=0$. Se a relação vale antes do próximo exemplo, os escores têm o mesmo sinal porque $\eta_2/\eta_1>0$; portanto, as duas execuções fazem a mesma predição, obtêm o mesmo erro $e_k$ e preservam a relação após a atualização. Logo, $\theta_t(\eta_2)=(\eta_2/\eta_1)\theta_t(\eta_1)$ em cada passo. Multiplicar pesos **e bias** por uma constante positiva preserva a fronteira e os erros: as épocas seriam idênticas. O início não nulo evita essa invariância.
 
 ## Exercise 2
 
