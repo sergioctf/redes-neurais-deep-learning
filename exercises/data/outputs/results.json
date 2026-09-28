@@ -1,0 +1,265 @@
+{
+  "seed": 42,
+  "exercise_1": {
+    "mixing_rates": {
+      "0.5": 0.0,
+      "1.0": 0.0675,
+      "2.0": 0.225,
+      "4.0": 0.4175
+    },
+    "mixing_rates_by_class": {
+      "0.5": {
+        "0": 0.0,
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0
+      },
+      "1.0": {
+        "0": 0.12,
+        "1": 0.15,
+        "2": 0.0,
+        "3": 0.0
+      },
+      "2.0": {
+        "0": 0.43,
+        "1": 0.37,
+        "2": 0.1,
+        "3": 0.0
+      },
+      "4.0": {
+        "0": 0.56,
+        "1": 0.46,
+        "2": 0.43,
+        "3": 0.22
+      }
+    },
+    "separation_ratios": [
+      {
+        "pair": "(0, 1)",
+        "center_distance": 4.242640687119285,
+        "r_ij_s_1": 1.3258252147247767
+      },
+      {
+        "pair": "(0, 2)",
+        "center_distance": 6.324555320336759,
+        "r_ij_s_1": 2.4802177726810823
+      },
+      {
+        "pair": "(0, 3)",
+        "center_distance": 13.038404810405298,
+        "r_ij_s_1": 4.496001658760448
+      },
+      {
+        "pair": "(1, 2)",
+        "center_distance": 5.830951894845301,
+        "r_ij_s_1": 2.37998036524298
+      },
+      {
+        "pair": "(1, 3)",
+        "center_distance": 10.198039027185569,
+        "r_ij_s_1": 3.6421567954234177
+      },
+      {
+        "pair": "(2, 3)",
+        "center_distance": 7.615773105863909,
+        "r_ij_s_1": 3.5422200492390274
+      }
+    ],
+    "smallest_ratio_s_1": 1.3258252147247767,
+    "smallest_ratio_pair": "(0, 1)",
+    "smallest_ratio_s_2": 0.6629126073623883
+  },
+  "exercise_2": {
+    "distance_between_centers_dataset_i": 3.331633541823365,
+    "distance_between_centers_dataset_ii": 0.23474446130286902,
+    "explained_variance_pc1_pc2_dataset_i": 0.6730369432215244,
+    "explained_variance_pc1_pc2_dataset_ii": 0.4310157948409402,
+    "maximum_core_squared_radius": 13.39923505710261,
+    "minimum_shell_squared_radius": 15.628582139382734,
+    "squared_radius_threshold": 14.513908598242672,
+    "radial_rule_errors": 0,
+    "minimum_eigenvalue_sigma_a": 0.15818873143415904,
+    "minimum_eigenvalue_sigma_b": 0.4978735233402783
+  },
+  "exercise_3": {
+    "class_counts": {
+      "False": 4315,
+      "True": 4378
+    },
+    "class_shares": {
+      "False": 0.4963763948004141,
+      "True": 0.5036236051995858
+    },
+    "positive_class_share": 0.5036236051995858,
+    "missing_values": [
+      {
+        "column": "PassengerId",
+        "missing_count": 0,
+        "missing_percentage": 0.0
+      },
+      {
+        "column": "HomePlanet",
+        "missing_count": 201,
+        "missing_percentage": 2.312205222592891
+      },
+      {
+        "column": "CryoSleep",
+        "missing_count": 217,
+        "missing_percentage": 2.4962613597147127
+      },
+      {
+        "column": "Cabin",
+        "missing_count": 199,
+        "missing_percentage": 2.289198205452663
+      },
+      {
+        "column": "Destination",
+        "missing_count": 182,
+        "missing_percentage": 2.093638559760727
+      },
+      {
+        "column": "Age",
+        "missing_count": 179,
+        "missing_percentage": 2.0591280340503855
+      },
+      {
+        "column": "VIP",
+        "missing_count": 203,
+        "missing_percentage": 2.3352122397331185
+      },
+      {
+        "column": "RoomService",
+        "missing_count": 181,
+        "missing_percentage": 2.082135051190613
+      },
+      {
+        "column": "FoodCourt",
+        "missing_count": 183,
+        "missing_percentage": 2.105142068330841
+      },
+      {
+        "column": "ShoppingMall",
+        "missing_count": 208,
+        "missing_percentage": 2.392729782583688
+      },
+      {
+        "column": "Spa",
+        "missing_count": 183,
+        "missing_percentage": 2.105142068330841
+      },
+      {
+        "column": "VRDeck",
+        "missing_count": 188,
+        "missing_percentage": 2.1626596111814105
+      },
+      {
+        "column": "Name",
+        "missing_count": 200,
+        "missing_percentage": 2.300701714022777
+      },
+      {
+        "column": "Transported",
+        "missing_count": 0,
+        "missing_percentage": 0.0
+      }
+    ],
+    "spending_statistics": [
+      {
+        "column": "RoomService",
+        "mean": 224.687617481203,
+        "median": 0.0,
+        "max": 14327.0
+      },
+      {
+        "column": "FoodCourt",
+        "mean": 458.07720329024676,
+        "median": 0.0,
+        "max": 29813.0
+      },
+      {
+        "column": "ShoppingMall",
+        "mean": 173.72916912197996,
+        "median": 0.0,
+        "max": 23492.0
+      },
+      {
+        "column": "Spa",
+        "mean": 311.1387779083431,
+        "median": 0.0,
+        "max": 22408.0
+      },
+      {
+        "column": "VRDeck",
+        "mean": 304.8547912992357,
+        "median": 0.0,
+        "max": 24133.0
+      }
+    ],
+    "training_foodcourt_before_transform": {
+      "mean": 445.9939820930574,
+      "median": 0.0
+    },
+    "train_shape": [
+      6954,
+      17
+    ],
+    "test_shape": [
+      1739,
+      17
+    ],
+    "train_min": -1.0,
+    "train_max": 1.0,
+    "test_min": -1.0,
+    "test_max": 1.0,
+    "no_remaining_nan": true,
+    "train_positive_share": 0.5035950532067874,
+    "test_positive_share": 0.503737780333525,
+    "preprocessing": {
+      "numerical_imputation_medians": {
+        "Age": 27.0,
+        "RoomService": 0.0,
+        "FoodCourt": 0.0,
+        "ShoppingMall": 0.0,
+        "Spa": 0.0,
+        "VRDeck": 0.0
+      },
+      "categorical_imputation_modes": {
+        "HomePlanet": "Earth",
+        "CryoSleep": "False",
+        "Destination": "TRAPPIST-1e",
+        "VIP": "False"
+      },
+      "encoded_columns": [
+        "HomePlanet_Earth",
+        "HomePlanet_Europa",
+        "HomePlanet_Mars",
+        "CryoSleep_False",
+        "CryoSleep_True",
+        "Destination_55 Cancri e",
+        "Destination_PSO J318.5-22",
+        "Destination_TRAPPIST-1e",
+        "VIP_False",
+        "VIP_True"
+      ],
+      "all_feature_names": [
+        "Age",
+        "RoomService",
+        "FoodCourt",
+        "ShoppingMall",
+        "Spa",
+        "VRDeck",
+        "TotalSpend",
+        "HomePlanet_Earth",
+        "HomePlanet_Europa",
+        "HomePlanet_Mars",
+        "CryoSleep_False",
+        "CryoSleep_True",
+        "Destination_55 Cancri e",
+        "Destination_PSO J318.5-22",
+        "Destination_TRAPPIST-1e",
+        "VIP_False",
+        "VIP_True"
+      ]
+    }
+  }
+}
