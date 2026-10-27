@@ -8,6 +8,7 @@ Portfólio da eletiva de **Redes Neurais e Deep Learning** do Insper, reunindo o
 
 1. [Atividade 1 — Data](exercises/data/index.md)
 2. [Atividade 2 — Perceptron](exercises/perceptron/index.md)
+3. [Atividade 3 — MLP](exercises/mlp/index.md)
 
 ## Reprodutibilidade
 
