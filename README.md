@@ -43,6 +43,21 @@ O exercício usa somente NumPy e Matplotlib para gerar os dados e as figuras. A 
 python docs/exercises/perceptron/code/perceptron_exercise.py
 ```
 
+## Executar o exercício VAE
+
+Instale a versão CPU de PyTorch separadamente para não tornar o build do site
+dependente de uma biblioteca grande de treinamento. O MNIST é baixado pelo
+`torchvision` na primeira execução para a pasta local `data/` (ignorada pelo Git).
+
+```bash
+python -m pip install -r docs/exercises/vae/code/requirements-vae.txt
+python docs/exercises/vae/code/test_vae.py
+python docs/exercises/vae/code/vae_exercise.py
+```
+
+O último comando treina os dois modelos por 20 épocas cada e gera as seis figuras,
+dois históricos CSV e `results.json`.
+
 ## Visualizar o site
 
 ```bash

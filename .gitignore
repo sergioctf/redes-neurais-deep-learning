@@ -6,5 +6,6 @@ env/
 target/
 __pycache__/
 *.py[cod]
+/data/
 docs/exercises/data/data/*.csv
 !docs/exercises/data/data/README.md

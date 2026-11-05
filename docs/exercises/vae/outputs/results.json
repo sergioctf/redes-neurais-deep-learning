@@ -1,0 +1,55 @@
+{
+  "configuration": {
+    "epochs": 20,
+    "batch_size": 128,
+    "learning_rate": 0.001,
+    "beta": 1.0,
+    "split_seed": 42,
+    "model_seed": 42,
+    "test_seed": 42,
+    "prior_sample_seed": 0,
+    "train_size": 50000,
+    "val_size": 10000,
+    "test_size": 10000,
+    "torch_version": "2.15.0+cpu",
+    "torchvision_version": "0.29.2+cpu"
+  },
+  "d16": {
+    "test": {
+      "reconstruction": 80.93333162841797,
+      "kl": 19.868761163330078,
+      "negative_elbo": 100.80209279174805
+    },
+    "val_kl_first": 12.955385327148438,
+    "val_kl_last": 19.825328552246095,
+    "first_test_indices_by_digit": [
+      3,
+      2,
+      1,
+      18,
+      4,
+      8,
+      11,
+      0,
+      61,
+      7
+    ]
+  },
+  "d2": {
+    "test": {
+      "reconstruction": 135.82832729492188,
+      "kl": 6.790587014770508,
+      "negative_elbo": 142.61891430969237
+    },
+    "val_kl_first": 5.231736564636231,
+    "val_kl_last": 6.77827114944458
+  },
+  "interpolation_indices": [
+    0,
+    1
+  ],
+  "interpolation_labels": [
+    7,
+    2
+  ]
+}
